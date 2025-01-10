@@ -1,1 +1,14 @@
-Chapter 1 gives a brief overview of what large language models are. It also gives an overview of concepts like Transformers, BERT, GPT and how they relate to each other. The chapter also gives very nice architecture diagrams of Transformer, BERT, GPT models. it also gives an overview architectural diagram of the different components of building an LLM that the book is going to cover.
+# 📚 Chapter 1: Introduction to Large Language Models  
+
+Chapter 1 provides a concise yet insightful overview of **large language models (LLMs)** and their foundational concepts. It covers:  
+
+- **Transformers, BERT, and GPT:**  
+  Explains their key features, differences, and how they are interconnected.  
+
+- **Architecture Diagrams:**  
+  Includes clear and detailed diagrams illustrating the architectures of Transformer, BERT, and GPT models.  
+
+- **Building an LLM:**  
+  Offers an overview architectural diagram showcasing the various components involved in building a large language model, setting the stage for the topics explored throughout the book.  
+
+This chapter serves as a comprehensive introduction, ensuring readers gain a strong foundational understanding before diving deeper.  
