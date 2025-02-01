@@ -22,6 +22,12 @@ Answers to common interview questions about **BERT**, **GPT**, and **Transformer
 
 ---
 
+![transformer](transformer.png)  
+*Figure 1: Transformer*
+
+![BERT & GPT](bert_gpt.png)  
+*Figure 2: BERT & GPT*
+
 ## 1. Transformer Architecture
 
 ### Self-Attention Mechanism
