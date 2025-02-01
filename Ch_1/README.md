@@ -39,14 +39,8 @@ Answers to common interview questions about **BERT**, **GPT**, and **Transformer
   - **K**: Represents the words we are comparing against.
   - **V**: Represents the information we aggregate based on the attention scores.
 
-- **How is the attention score calculated?**
-  - The attention score is calculated using the **scaled dot-product**:
-    $
-    \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
-    $
-
 - **Why is scaling used in dot-product attention?**
-  - Scaling by \( \sqrt{d_k} \) prevents the dot products from becoming too large, which can lead to small gradients during training.
+  - Scaling prevents the dot products from becoming too large, which can lead to small gradients during training.
 
 ---
 
@@ -62,7 +56,7 @@ Answers to common interview questions about **BERT**, **GPT**, and **Transformer
   - Transformers lack recurrence or convolution, so they have no inherent notion of word order.
   - Positional encoding adds information about the position of each word in the sequence.
   - Without positional encoding, the model would treat the input sequence as a bag of words, losing all information about the order of tokens. Example: The sentences "The cat chased the dog" and "The dog chased the cat" would be treated identically without positional information.
-   - Self-Attention is Permutation-Invariant (means that shuffling the tokens in a sequence would produce the same attention scores).
+   - Self-Attention is *Permutation-Invariant* (means that shuffling the tokens in a sequence would produce the same attention scores).
 
 - **How is positional encoding added?**
   - It is added to the input embeddings using sine and cosine functions of different frequencies:
@@ -100,6 +94,14 @@ Answers to common interview questions about **BERT**, **GPT**, and **Transformer
 - **Next Sentence Prediction (NSP):**
   - Predicts whether two sentences appear consecutively in the text.
 
+- **How to evaluate effectiveness of pre-trained model?**
+  - Intrinsic Evaluation: Assess the quality of learned representations (e.g., perplexity, masked token accuracy).
+  - Extrinsic Evaluation: Fine-tune the model on downstream tasks and evaluate performance (e.g., accuracy, F1-score).
+  - Transfer Learning Evaluation: Test the model’s ability to adapt to new domains or languages.
+  - Robustness and Generalization: Evaluate the model’s performance on noisy, adversarial, or out-of-distribution data.
+  - Efficiency and Scalability: Measure inference speed and memory usage.
+
+Fairness and Bias: Detect and mitigate biases in the model’s predictions.
 ---
 
 ### Tokenization
