@@ -14,20 +14,19 @@ Chapter 1 provides a concise yet insightful overview of **large language models 
 This chapter serves as a comprehensive introduction, ensuring readers gain a strong foundational understanding before diving deeper.  
 
 
-
-
-# Interview Concepts: BERT, GPT, and Transformers
-
-Answers to common interview questions about **BERT**, **GPT**, and **Transformers**. 
-
----
-
 ![transformer](transformer.png)  
 *Figure 1: Transformer*
 
 ![BERT & GPT](bert_gpt.png)  
 *Figure 2: BERT & GPT*
 
+---
+
+# Interview Concepts: BERT, GPT, and Transformers
+
+Answers to common interview questions about **BERT**, **GPT**, and **Transformers**. 
+
+---
 ## 1. Transformer Architecture
 
 ### Self-Attention Mechanism
