@@ -34,7 +34,7 @@ Answers to common interview questions about **BERT**, **GPT**, and **Transformer
   - Self-attention computes attention **within the same sequence**, capturing dependencies between all words.
 
 - **What are queries (Q), keys (K), and values (V)?**
-  - These are learned linear transformations of the input embeddings.
+  - These are <u>learned linear transformations</u> of the input embeddings.
   - **Q**: Represents the word we are focusing on.
   - **K**: Represents the words we are comparing against.
   - **V**: Represents the information we aggregate based on the attention scores.
