@@ -101,12 +101,6 @@ Answers to common interview questions about **BERT**, **GPT**, and **Transformer
   - Robustness and Generalization: Evaluate the model’s performance on noisy, adversarial, or out-of-distribution data.
   - Efficiency and Scalability: Measure inference speed and memory usage.
 
-Fairness and Bias: Detect and mitigate biases in the model’s predictions.
----
-
-### Tokenization
-- **What is WordPiece tokenization?**
-  - It splits words into subword units (e.g., "playing" → "play" + "##ing"), reducing the vocabulary size and handling OOV words.
 
 ---
 
@@ -114,7 +108,7 @@ Fairness and Bias: Detect and mitigate biases in the model’s predictions.
 
 ### Key Features
 - **How does GPT differ from BERT?**
-  - GPT is unidirectional (left-to-right) and uses causal language modeling for pre-training.
+  - GPT is unidirectional (left-to-right) and uses causal language modeling (CLM) for pre-training.
 
 - **What is the pre-training objective?**
   - Predict the next word in a sequence, given all previous words.
@@ -126,5 +120,3 @@ Fairness and Bias: Detect and mitigate biases in the model’s predictions.
   - Fine-tuning involves training on task-specific data (e.g., text classification) using supervised learning.
 
 ---
-
-## 4
