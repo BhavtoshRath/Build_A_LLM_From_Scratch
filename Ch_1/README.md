@@ -41,9 +41,9 @@ Answers to common interview questions about **BERT**, **GPT**, and **Transformer
 
 - **How is the attention score calculated?**
   - The attention score is calculated using the **scaled dot-product**:
-    \[
+    $
     \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
-    \]
+    $
 
 - **Why is scaling used in dot-product attention?**
   - Scaling by \( \sqrt{d_k} \) prevents the dot products from becoming too large, which can lead to small gradients during training.
