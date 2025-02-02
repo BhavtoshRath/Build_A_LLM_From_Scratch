@@ -22,6 +22,7 @@ This chapter serves as a comprehensive introduction, ensuring readers gain a str
 
 ![LLM stages](LLM_stages.png)  
 *Figure 3: LLM stages*
+
 ---
 
 # Interview Concepts: BERT, GPT, and Transformers
@@ -127,3 +128,18 @@ Answers to common interview questions about **BERT**, **GPT**, and **Transformer
   - Fine-tuning involves training on task-specific data (e.g., text classification) using supervised learning.
 
 ---
+
+### Misc
+- **Explain LoRA and Mixture-of-experts**
+
+*LoRA:*
+  - LoRA (Low Rank Adaptation) is an effIcient way of finetuning pre-trained models.
+  - Updating all weight parameters of a large model is computationally expensive. Instead of updating the full weight matrix, this technique approximates the updates using low-rank matrices.
+  - By reducing the number of parameters to update, LoRA significantly reduces memory and computational costs compared to full fine-tuning.
+  - USE WHEN: Use when you need to fine-tune large models for specific tasks with limited computational resources.
+
+*Mixture of experts:*
+  - Mixture of Experts is a neural network architecture designed to scale model capacity efficiently by dividing the model into smaller, specialized sub-networks (experts). 
+  - Each expert handles a subset of the input data, and a gating mechanism determines which experts to activate for a given input.
+  - The gating network outputs a probability distribution over the experts, and only the top-k  experts are activated (sparse activation)
+  - USE WHEN: Use when building very large models that require high capacity and can benefit from sparse computation.
