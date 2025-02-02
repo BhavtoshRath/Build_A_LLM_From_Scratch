@@ -20,6 +20,8 @@ This chapter serves as a comprehensive introduction, ensuring readers gain a str
 ![BERT & GPT](bert_gpt.png)  
 *Figure 2: BERT & GPT*
 
+![LLM stages](LLM_stages.png)  
+*Figure 3: LLM stages*
 ---
 
 # Interview Concepts: BERT, GPT, and Transformers
